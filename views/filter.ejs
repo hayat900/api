@@ -1,0 +1,97 @@
+<! DOCTYPE html>
+<html>
+    <head>
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+       #first,#second,#third,#fourth,#five,#six{
+          
+            margin-left:30%;
+            margin-top:-12.5%;
+        }
+        .card{
+       width:45rem;
+        background-color:lightblue;
+       height:45rem;
+        
+        box-shadow:5px 5px 8px 8px;
+    }
+        
+    body{
+        background-color:lavender;
+    }
+        </style>
+  
+    </head>
+<body>
+    
+<div class="container">
+        <div class="row">
+            <div class="col sm-3"></div>
+           <div class="offset-2 col-sm-12">
+<div class="card">
+    <div class="card-body">
+    <form action="/filter" method="post">
+        <h1>Enter your criteria</h1><br><br>
+        <label for="talent_name">Enter talent_name </label><br>
+    <input type="text" name="talent_name" id="talent_name"><br><br>
+        <div id="first">
+          <label for="position">Enter position </label><br>
+    <input type="text" name="position" id="position"><br><br>
+        </div>
+          <label for="industry">Enter industry </label><br>
+        <input type="text" name="industry" id="industry"><br><br>
+        <div id="second">
+          <label for="top_skill">Enter top_skill </label><br>
+        <input type="text" name="top_skill" id="top_skill"><br><br>
+        </div>
+          <label for=" availability">Enter availability </label><br>
+        <input type="text" name=" availability" id=" availability"><br><br>
+        <div id="third">
+          <label for=" start_time">Enter start_time </label><br>
+        <input type="text" name=" start_time" id=" start_time"><br><br>
+        </div>
+          <label for="location1">Enter location </label><br>
+        <input type="text" name="location" id="location1"><br><br>
+        <div id="fourth">
+          <label for=" salary5" id="label5">Enter  salary </label><br>
+        <input type="number" name=" salary" id=" salary5"><br><br>
+        </div>
+          <label for=" maxexp4 "id="label4">Enter  maxexp </label><br>
+        <input type="number" name=" maxexp" id=" maxexp4"><br><br>
+        <div id="five">
+          <label for=" min_exp1" id="label3">Enter  min_exp </label><br>
+        <input type="number" name=" min_exp" id=" min_exp1"><br><br>
+        </div>
+          <label for="hiring1" id="label2">Enter hiring </label><br>
+        <input type="text" name="hiring" id="hiring1"><br><br>
+        <div id="six">
+          <label for="seniority_level1" id="label1">Enter seniority_level</label><br>
+        <input type="text" name="seniority_level" id="seniority_level1"><br><br>
+        </div>
+    <input type="submit" value="Submit" class="btn btn-success  btn-lg">
+       
+    </form>
+    </div>
+               </div>
+            </div>
+            <div class="col-sm-3"></div>
+    </div>
+    </div>
+    
+            
+    
+    
+    
+    </body>
+
+
+
+
+</html>
+
+
+
+
